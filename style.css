@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: black ;
+    opacity: 0.9;
+    color: seashell;
+    font-family: Helvetica;;
+}
+
+/* ====== Header Start ====== */
+
+header{
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    height: 50px;
+    padding: 0px 10px;
+}
+header .nav ul{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav ul li{
+    width: 140px;   
+    height: 20px;
+    list-style: none;
+    font-size: 22px;
+}
+/* ====== Header End ====== */
+
+
+
+/* ====== Main Start ====== */
+main { 
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+/* ====== Section 1 Start ====== */
+main .sec1{
+    background-image: url(./img/img-mission-background.jpeg);
+    width: 1200px;
+    height: 700px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 30px;
+}
+.sec1 .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+/* ====== Section 1 End ====== */
+
+
+
+/* ====== Section 2 Start ====== */
+main .sec2{
+    width: 1000px;
+    position: relative;
+    line-height: 1.8;
+    font-size: 22px;
+    height: 700px;
+
+}
+.sec2 .center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-30%);
+}
+.sec2 .text{
+    text-align: center;
+}
+.sec2 .content{
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sec2 .content > div {
+    margin: 5px 10px;
+}
+.sec2 .content img{ 
+    width: 300px;
+    height: 200px;
+}
+/* ====== Section 2 End ====== */
+
+
+/* ====== Section 3 Start ====== */
+.sec3{
+    height: 500px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+.sec3 .text{
+    line-height: 1.8;
+    font-size: 22px;
+}
+.sec3 .content{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url(./img/img-locations-background.jpeg);
+    background-position: center;
+    opacity: 0.8;
+}
+.sec3 .content h2{
+    margin-top: 30px;
+    background: none ;
+    font-size: 35px;
+    line-height: 1.8;
+}
+.content .loc{
+    height: 200px;
+    width: 300px;
+    line-height: 1.8;
+    font-size: 22px;
+    margin: 25px 40px 0px;
+    opacity: 1;
+    display: inline-block;
+}
+
+
+/* ====== Section 3 End ====== */
+
+
+
+/* ====== Footer 3 Start ====== */
+.contact{
+    height: 200px;
+    line-height: 1.8;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px ;
+}
+.copyright{
+    margin-left: 20px;
+}
+/* ====== Footer 3 End ====== */
